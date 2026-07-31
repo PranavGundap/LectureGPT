@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Environment Variables
+.env
+
+# Authentication (temporary)
+firebase_config.py
+auth.py
+auth_ui.py
+
+# Generated Data
+audio/
+data/
+*.joblib
+
+# Temporary Files
+response.txt
+test_auth.py
+transcribe_medium.py
+
+# IDE
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+assets/lecturegpt_demo.mp4

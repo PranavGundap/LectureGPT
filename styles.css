@@ -1,0 +1,230 @@
+/* LectureGPT UI v2 */
+
+.stApp{background:#0E1117;}
+
+[data-testid="stSidebar"]{
+background:#151922;
+border-right:1px solid #2d3142;
+}
+
+.stButton button{
+width:100%;
+height:52px;
+border:none;
+border-radius:14px;
+background:linear-gradient(90deg,#7C3AED,#A855F7);
+color:white;
+font-weight:700;
+transition:.25s;
+}
+
+.stButton button:hover{
+transform:translateY(-2px);
+box-shadow:0 0 18px rgba(168,85,247,.45);
+}
+
+.stTextInput input{
+background:#1A1D29!important;
+border:1px solid #31364a!important;
+border-radius:14px!important;
+color:white!important;
+height:52px;
+}
+
+.hero-box{
+background:linear-gradient(135deg,#1B1F2B,#22293B);
+border:1px solid #2d3142;
+border-radius:20px;
+padding:18px;
+margin-bottom:18px;
+text-align:center;
+}
+
+.hero-title{font-size:34px;font-weight:800;color:#fff;}
+.hero-subtitle{color:#C9D1D9;margin-top:8px;}
+.hero-features{color:#AEB7C7;margin:12px 0;font-size:15px;}
+.hero-author{color:#C084FC;font-size:15px;font-weight:600;}
+
+.card{
+background:#1B1F2B;
+border:1px solid #2d3142;
+border-radius:18px;
+padding:22px;
+
+height:360px;          /* <-- min-height ki jagah height */
+
+display:flex;
+flex-direction:column;
+
+margin-bottom:22px;
+transition:.25s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+border-color:#8B5CF6;
+box-shadow:0 10px 28px rgba(0,0,0,.35);
+}
+
+.card h4{
+margin:0 0 14px;
+padding-bottom:10px;
+border-bottom:1px solid #2d3142;
+font-size:21px;
+}
+
+.card-content{
+flex:1;
+overflow-y:auto;
+color:#D9DCE3;
+line-height:1.75;
+font-size:15px;
+padding-right:6px;
+}
+
+.card-content::-webkit-scrollbar{width:6px;}
+.card-content::-webkit-scrollbar-thumb{background:#7C3AED;border-radius:20px;}
+
+.info-card{
+background:#1B1F2B;
+border:1px solid #2d3142;
+border-radius:18px;
+padding:20px;
+transition:.25s;
+min-height: 215px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+}
+
+.info-card:hover{
+transform:translateY(-3px);
+border-color:#8B5CF6;
+}
+
+.library-item button{
+min-height:62px!important;
+border-radius:14px!important;
+text-align:left!important;
+font-size:15px!important;
+font-weight:600!important;
+}
+
+.delete-btn button{
+min-height:62px!important;
+background:#2B3040!important;
+border:1px solid #454B5A!important;
+border-radius:14px!important;
+}
+
+.delete-btn button:hover{
+background:#EF4444!important;
+border-color:#EF4444!important;
+}
+
+[data-testid="stAlert"]{
+background:#1B1F2B;
+border:1px solid #2d3142;
+border-radius:14px;
+}
+
+.card-footer{
+
+    margin-top:15px;
+
+    padding-top:12px;
+
+    border-top:1px solid #2d3142;
+
+    color:#8B5CF6;
+
+    font-size:13px;
+
+    text-align:right;
+
+    font-weight:600;
+
+}
+
+/* ---------- Import Section ---------- */
+
+.stFileUploader{
+    margin-top:2px;
+}
+
+.stFileUploader > div{
+    min-height:52px;
+}
+
+.stTextInput{
+    margin-top:2px;
+}
+
+.stTextInput input{
+    height:52px !important;
+}
+
+.stFileUploader section{
+    border-radius:14px !important;
+}
+
+/* Import Card */
+
+[data-testid="stVerticalBlockBorderWrapper"]{
+
+    border-radius:20px !important;
+
+    border:1px solid #2d3142 !important;
+
+    background:#1B1F2B;
+
+    padding:18px;
+
+    margin-bottom:22px;
+
+    box-shadow:0 0 18px rgba(0,0,0,.18);
+
+}
+/* ===== Streamlit 1.59 File Uploader ===== */
+
+[data-testid="stFileUploader"]{
+    width:100%;
+}
+
+[data-testid="stFileUploader"] section{
+    background:#1A1D29 !important;
+    border:1px solid #31364A !important;
+    border-radius:14px !important;
+    min-height:52px !important;
+    padding:10px 12px !important;
+}
+
+[data-testid="stFileUploader"] section:hover{
+    border-color:#A855F7 !important;
+}
+
+[data-testid="stFileUploader"] button{
+    border-radius:10px !important;
+}
+
+[data-testid="stFileUploader"] small{
+    color:#9CA3AF !important;
+}
+
+.library-item button {
+    border-radius: 14px !important;
+    padding: 12px !important;
+    text-align: left !important;
+    font-weight: 500 !important;
+    border: 1px solid rgba(255,255,255,0.08) !important;
+    transition: all 0.2s ease !important;
+}
+
+.library-item button:hover {
+    transform: translateY(-2px);
+}
+
+.delete-btn button {
+    border-radius: 12px !important;
+    height: 48px !important;
+}

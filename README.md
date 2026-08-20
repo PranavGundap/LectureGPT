@@ -142,21 +142,49 @@ streamlit run app.py
 
 ## 📸 Screenshots
 
-(Add your screenshots here)
+### 🏠 Home Page
 
-- Home Page
-- Lecture Library
-- AI Answer
-- Lecture Summary
-- Quiz Generation
-- Quiz Result
+![Home Page](assets/home.png)
+
+---
+
+### ⚙️ Processing Lecture
+
+![Processing](assets/processing.png)
+
+---
+
+### 💬 AI Answer
+
+![AI Answer](assets/answer.png)
+
+---
+
+### 📝 Lecture Summary
+
+![Summary](assets/summary.png)
+
+---
+
+### 🧠 AI Quiz
+
+![Quiz](assets/quiz.png)
+
+---
+
+### ✅ Quiz Result
+
+![Quiz Result](assets/quiz_result.png)
+
+---
 
 ---
 
 ## 🎥 Demo Video
 
-(Add GitHub video link here)
+Watch the complete LectureGPT demo here:
 
+🔗 https://youtu.be/TcJIxlZNXmA
 ---
 
 ## 📝 Demo Video Note
